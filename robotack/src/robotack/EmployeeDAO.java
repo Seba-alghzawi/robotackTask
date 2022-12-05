@@ -30,6 +30,7 @@ public class EmployeeDAO {
 				//System.out.println("connect to the dataBase done successfully.");
 				
 			}
+			
 			// 2- Create PrepaidStatement
 			pstmt = conn.prepareStatement(updateQuery);
 			pstmt.setInt(1, amountOfIncreasing);

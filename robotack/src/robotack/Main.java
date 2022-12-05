@@ -22,6 +22,7 @@ public class Main {
 		BufferedReader reader;
 		int input;
 		 
+		
 		while(true)
 		{
 			System.out.println("1-increase salary employees working in Development Department.");

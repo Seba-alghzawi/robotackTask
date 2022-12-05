@@ -13,7 +13,7 @@ public class DepartmentDAO {
 	public DepartmentDAO() {
 		// TODO Auto-generated constructor stub
 	}
-
+	
 	public static void cheakTheExistanceOfDepartment(long Id) throws SQLException
 	{
 		Connection conn = null;
@@ -29,6 +29,7 @@ public class DepartmentDAO {
 			conn.close();
 		}
 	}
+	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
